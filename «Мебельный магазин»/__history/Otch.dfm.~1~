@@ -1,0 +1,52 @@
+object Form5: TForm5
+  Left = 0
+  Top = 0
+  Caption = #1054#1090#1095#1077#1090
+  ClientHeight = 464
+  ClientWidth = 752
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 0
+    Top = 0
+    Width = 752
+    Height = 22
+    Align = alTop
+    Caption = #1055#1086#1080#1089#1082
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    ExplicitWidth = 53
+  end
+  object Edit1: TEdit
+    Left = 0
+    Top = 22
+    Width = 752
+    Height = 27
+    Align = alTop
+    TabOrder = 0
+  end
+  object DBGrid1: TDBGrid
+    Left = 0
+    Top = 49
+    Width = 752
+    Height = 415
+    Align = alClient
+    TabOrder = 1
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+end

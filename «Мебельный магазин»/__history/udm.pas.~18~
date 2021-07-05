@@ -1,0 +1,99 @@
+unit udm;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DB, Data.Win.ADODB, Vcl.Menus;
+
+type
+  TDataModule1 = class(TDataModule)
+    ADOConnection1: TADOConnection;
+    DataSource2: TDataSource;
+    DataSource3: TDataSource;
+    MainMenu1: TMainMenu;
+    N1: TMenuItem;
+    N2: TMenuItem;
+    N3: TMenuItem;
+    N4: TMenuItem;
+    DataSource1: TDataSource;
+    DataSource4: TDataSource;
+    ADOqZakaz: TADODataSet;
+    ADOqKatalog_mebeli: TADODataSet;
+    ADOqSotrudniki: TADODataSet;
+    ADOOtdel: TADODataSet;
+    ADOqZakazKod_Zakaza: TAutoIncField;
+    ADOqZakazFamiliaZak: TWideStringField;
+    ADOqZakazImyaZak: TWideStringField;
+    ADOqZakazOtchestvoZak: TWideStringField;
+    ADOqZakazAdresZak: TWideStringField;
+    ADOqZakazqZakazKod_mebeli: TIntegerField;
+    ADOqZakazKolichestvo: TIntegerField;
+    ADOqZakazData_podachi_zayavleniay: TDateTimeField;
+    ADOqZakazData_dostavki: TDateTimeField;
+    ADOqZakazSumma: TIntegerField;
+    ADOqZakazqKatalog_mebeliKod_mebeli: TAutoIncField;
+    ADOqZakazqKatalog_mebeliKod_otdela: TIntegerField;
+    ADOqZakazNaimenovanie_tovara: TWideStringField;
+    ADOqZakazDlina: TIntegerField;
+    ADOqZakazShirina: TIntegerField;
+    ADOqZakazVisota: TIntegerField;
+    ADOqZakazMaterial: TWideStringField;
+    ADOqZakazCvet: TWideStringField;
+    ADOqZakazStoimost: TWideStringField;
+    ADOqZakazIzgotovitel: TWideStringField;
+    ADOqZakazOtdelKod_otdela: TAutoIncField;
+    ADOqZakazOtdel: TWideStringField;
+    ADOqZakazqSotrudnikiKod_sotrudnika: TAutoIncField;
+    ADOqZakazFIO: TWideStringField;
+    ADOqZakazData_rojdenia: TDateTimeField;
+    ADOqZakazDoljnost: TWideStringField;
+    ADOqZakazStaj_raboty: TIntegerField;
+    ADOqZakazqZakazKod_sotrudnika: TIntegerField;
+    ADOqKatalog_mebeliKod_mebeli: TAutoIncField;
+    ADOqKatalog_mebeliKod_otdela: TIntegerField;
+    ADOqKatalog_mebeliNaimenovanie_tovara: TWideStringField;
+    ADOqKatalog_mebeliDlina: TIntegerField;
+    ADOqKatalog_mebeliShirina: TIntegerField;
+    ADOqKatalog_mebeliVisota: TIntegerField;
+    ADOqKatalog_mebeliMaterial: TWideStringField;
+    ADOqKatalog_mebeliCvet: TWideStringField;
+    ADOqKatalog_mebeliStoimost: TWideStringField;
+    ADOqKatalog_mebeliIzgotovitel: TWideStringField;
+    ADOqSotrudnikiKod_sotrudnika: TAutoIncField;
+    ADOqSotrudnikiFIO: TWideStringField;
+    ADOqSotrudnikiData_rojdenia: TDateTimeField;
+    ADOqSotrudnikiDoljnost: TWideStringField;
+    ADOqSotrudnikiStaj_raboty: TIntegerField;
+    ADOOtdelKod_otdela: TAutoIncField;
+    ADOOtdelOtdel: TWideStringField;
+    ADOqKatalog_mebeliOtdel: TStringField;
+    procedure N3Click(Sender: TObject);
+    procedure N4Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DataModule1: TDataModule1;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+uses ufMain, uOPR;
+
+{$R *.dfm}
+
+procedure TDataModule1.N3Click(Sender: TObject);
+begin
+ Form1.Close;
+end;
+
+procedure TDataModule1.N4Click(Sender: TObject);
+begin
+OPR.Show;
+end;
+
+end.

@@ -1,0 +1,24 @@
+program Magazin;
+
+uses
+  Vcl.Forms,
+  ufMain in 'ufMain.pas' {Form1},
+  udm in 'udm.pas' {DataModule1: TDataModule},
+  FM in 'FM.pas' {Form2},
+  Zakaz in 'Zakaz.pas' {Form3},
+  uOPR in 'uOPR.pas' {OPR},
+  Chek in 'Chek.pas' {Form4};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TDataModule1, DataModule1);
+  Application.CreateForm(TOPR, OPR);
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm4, Form4);
+  Application.Run;
+end.

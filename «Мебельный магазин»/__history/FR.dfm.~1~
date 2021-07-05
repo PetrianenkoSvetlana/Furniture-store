@@ -1,0 +1,293 @@
+object Form8: TForm8
+  Left = 0
+  Top = 0
+  Caption = 'Form8'
+  ClientHeight = 492
+  ClientWidth = 830
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object frxPreview1: TfrxPreview
+    Left = 0
+    Top = 0
+    Width = 830
+    Height = 492
+    Align = alClient
+    OutlineVisible = False
+    OutlineWidth = 120
+    ThumbnailVisible = False
+    UseReportHints = True
+    ExplicitLeft = 168
+    ExplicitTop = 88
+    ExplicitWidth = 100
+    ExplicitHeight = 100
+  end
+  object frxDBDataset1: TfrxDBDataset
+    UserName = 'frxDBDataset1'
+    CloseDataSource = False
+    DataSource = DataModule1.DataSource5
+    BCDToCurrency = False
+    Left = 616
+    Top = 336
+  end
+  object frxReport1: TfrxReport
+    Version = '6.2.11'
+    DotMatrixReport = False
+    IniFile = '\Software\Fast Reports'
+    Preview = frxPreview1
+    PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick, pbCopy, pbSelection]
+    PreviewOptions.Zoom = 1.000000000000000000
+    PrintOptions.Printer = 'Default'
+    PrintOptions.PrintOnSheet = 0
+    ReportOptions.CreateDate = 43987.712314131950000000
+    ReportOptions.LastChange = 43987.712314131950000000
+    ScriptLanguage = 'PascalScript'
+    ScriptText.Strings = (
+      ''
+      'begin'
+      ''
+      'end.')
+    Left = 720
+    Top = 336
+    Datasets = <
+      item
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+      end>
+    Variables = <>
+    Style = <>
+    object Data: TfrxDataPage
+      Height = 1000.000000000000000000
+      Width = 1000.000000000000000000
+    end
+    object Page1: TfrxReportPage
+      PaperWidth = 210.000000000000000000
+      PaperHeight = 297.000000000000000000
+      PaperSize = 9
+      LeftMargin = 10.000000000000000000
+      RightMargin = 10.000000000000000000
+      TopMargin = 10.000000000000000000
+      BottomMargin = 10.000000000000000000
+      Frame.Typ = []
+      object ReportTitle1: TfrxReportTitle
+        FillType = ftBrush
+        Frame.Typ = []
+        Height = 22.677180000000000000
+        Top = 18.897650000000000000
+        Width = 718.110700000000000000
+      end
+      object MasterData1: TfrxMasterData
+        FillType = ftBrush
+        Frame.Typ = []
+        Height = 234.330860000000000000
+        Top = 102.047310000000000000
+        Width = 718.110700000000000000
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        RowCount = 0
+        object frxDBDataset1Kod_cheka: TfrxMemoView
+          IndexTag = 1
+          AllowVectorExport = True
+          Left = 3.779530000000000000
+          Top = 18.897650000000000000
+          Width = 79.370130000000000000
+          Height = 18.897650000000000000
+          DataField = 'Kod_cheka'
+          DataSet = frxDBDataset1
+          DataSetName = 'frxDBDataset1'
+          Frame.Typ = []
+          Memo.UTF8W = (
+            '[frxDBDataset1."Kod_cheka"]')
+        end
+        object frxDBDataset1qChekKod_mebeli: TfrxMemoView
+          IndexTag = 1
+          AllowVectorExport = True
+          Left = 3.779530000000000000
+          Top = 45.354360000000000000
+          Width = 79.370130000000000000
+          Height = 18.897650000000000000
+          DataField = 'qChek.Kod_mebeli'
+          DataSet = frxDBDataset1
+          DataSetName = 'frxDBDataset1'
+          Frame.Typ = []
+          Memo.UTF8W = (
+            '[frxDBDataset1."qChek.Kod_mebeli"]')
+        end
+        object frxDBDataset1Naimenovanie_tovara: TfrxMemoView
+          IndexTag = 1
+          AllowVectorExport = True
+          Left = 86.929190000000000000
+          Top = 45.354360000000000000
+          Width = 253.228510000000000000
+          Height = 18.897650000000000000
+          DataField = 'Naimenovanie_tovara'
+          DataSet = frxDBDataset1
+          DataSetName = 'frxDBDataset1'
+          Frame.Typ = []
+          Memo.UTF8W = (
+            '[frxDBDataset1."Naimenovanie_tovara"]')
+        end
+        object frxDBDataset1Dlina: TfrxMemoView
+          IndexTag = 1
+          AllowVectorExport = True
+          Left = 343.937230000000000000
+          Top = 45.354360000000000000
+          Width = 79.370130000000000000
+          Height = 18.897650000000000000
+          DataField = 'Dlina'
+          DataSet = frxDBDataset1
+          DataSetName = 'frxDBDataset1'
+          Frame.Typ = []
+          Memo.UTF8W = (
+            '[frxDBDataset1."Dlina"]')
+        end
+        object frxDBDataset1Shirina: TfrxMemoView
+          IndexTag = 1
+          AllowVectorExport = True
+          Left = 427.086890000000000000
+          Top = 45.354360000000000000
+          Width = 79.370130000000000000
+          Height = 18.897650000000000000
+          DataField = 'Shirina'
+          DataSet = frxDBDataset1
+          DataSetName = 'frxDBDataset1'
+          Frame.Typ = []
+          Memo.UTF8W = (
+            '[frxDBDataset1."Shirina"]')
+        end
+        object frxDBDataset1Visota: TfrxMemoView
+          IndexTag = 1
+          AllowVectorExport = True
+          Left = 510.236550000000000000
+          Top = 45.354360000000000000
+          Width = 79.370130000000000000
+          Height = 18.897650000000000000
+          DataField = 'Visota'
+          DataSet = frxDBDataset1
+          DataSetName = 'frxDBDataset1'
+          Frame.Typ = []
+          Memo.UTF8W = (
+            '[frxDBDataset1."Visota"]')
+        end
+        object frxDBDataset1Material: TfrxMemoView
+          IndexTag = 1
+          AllowVectorExport = True
+          Left = 3.779530000000000000
+          Top = 68.031539999999990000
+          Width = 181.417440000000000000
+          Height = 18.897650000000000000
+          DataField = 'Material'
+          DataSet = frxDBDataset1
+          DataSetName = 'frxDBDataset1'
+          Frame.Typ = []
+          Memo.UTF8W = (
+            '[frxDBDataset1."Material"]')
+        end
+        object frxDBDataset1Cvet: TfrxMemoView
+          IndexTag = 1
+          AllowVectorExport = True
+          Left = 185.196970000000000000
+          Top = 68.031539999999990000
+          Width = 162.519790000000000000
+          Height = 18.897650000000000000
+          DataField = 'Cvet'
+          DataSet = frxDBDataset1
+          DataSetName = 'frxDBDataset1'
+          Frame.Typ = []
+          Memo.UTF8W = (
+            '[frxDBDataset1."Cvet"]')
+        end
+        object frxDBDataset1Stoimost: TfrxMemoView
+          IndexTag = 1
+          AllowVectorExport = True
+          Left = 347.716760000000000000
+          Top = 68.031539999999990000
+          Width = 170.078850000000000000
+          Height = 18.897650000000000000
+          DataField = 'Stoimost'
+          DataSet = frxDBDataset1
+          DataSetName = 'frxDBDataset1'
+          Frame.Typ = []
+          Memo.UTF8W = (
+            '[frxDBDataset1."Stoimost"]')
+        end
+        object frxDBDataset1Izgotovitel: TfrxMemoView
+          IndexTag = 1
+          AllowVectorExport = True
+          Left = 517.795610000000000000
+          Top = 68.031539999999990000
+          Width = 188.976500000000000000
+          Height = 18.897650000000000000
+          DataField = 'Izgotovitel'
+          DataSet = frxDBDataset1
+          DataSetName = 'frxDBDataset1'
+          Frame.Typ = []
+          Memo.UTF8W = (
+            '[frxDBDataset1."Izgotovitel"]')
+        end
+        object frxDBDataset1Otdel: TfrxMemoView
+          IndexTag = 1
+          AllowVectorExport = True
+          Left = 3.779530000000000000
+          Top = 90.708720000000010000
+          Width = 170.078850000000000000
+          Height = 18.897650000000000000
+          DataField = 'Otdel'
+          DataSet = frxDBDataset1
+          DataSetName = 'frxDBDataset1'
+          Frame.Typ = []
+          Memo.UTF8W = (
+            '[frxDBDataset1."Otdel"]')
+        end
+      end
+      object PageFooter1: TfrxPageFooter
+        FillType = ftBrush
+        Frame.Typ = []
+        Height = 22.677180000000000000
+        Top = 396.850650000000000000
+        Width = 718.110700000000000000
+        object Memo1: TfrxMemoView
+          AllowVectorExport = True
+          Left = 642.520100000000000000
+          Width = 75.590600000000000000
+          Height = 18.897650000000000000
+          Frame.Typ = []
+          HAlign = haRight
+          Memo.UTF8W = (
+            '[Page#]')
+        end
+      end
+    end
+  end
+  object frxPDFExport1: TfrxPDFExport
+    UseFileCache = True
+    ShowProgress = True
+    OverwritePrompt = False
+    DataOnly = False
+    OpenAfterExport = False
+    PrintOptimized = False
+    Outline = False
+    Background = False
+    HTMLTags = True
+    Quality = 95
+    Transparency = False
+    Author = 'FastReport'
+    Subject = 'FastReport PDF export'
+    ProtectionFlags = [ePrint, eModify, eCopy, eAnnot]
+    HideToolbar = False
+    HideMenubar = False
+    HideWindowUI = False
+    FitWindow = False
+    CenterWindow = False
+    PrintScaling = False
+    PdfA = False
+    Left = 640
+    Top = 264
+  end
+end

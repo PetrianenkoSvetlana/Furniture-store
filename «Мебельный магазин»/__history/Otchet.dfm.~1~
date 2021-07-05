@@ -1,0 +1,119 @@
+object Form5: TForm5
+  Left = 0
+  Top = 0
+  Caption = 'Form9'
+  ClientHeight = 469
+  ClientWidth = 767
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 0
+    Top = 0
+    Width = 767
+    Height = 22
+    Align = alTop
+    Caption = #1055#1086#1080#1089#1082
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    ExplicitWidth = 53
+  end
+  object Edit1: TEdit
+    Left = 0
+    Top = 22
+    Width = 767
+    Height = 36
+    Align = alTop
+    TabOrder = 0
+    ExplicitTop = 13
+  end
+  object DBGrid1: TDBGrid
+    Left = 0
+    Top = 58
+    Width = 767
+    Height = 411
+    Align = alClient
+    DataSource = DataModule1.DataSource1
+    TabOrder = 1
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'Kod_Zakaza'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Kod_cheka'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'FamiliaZak'
+        Width = 100
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'ImyaZak'
+        Width = 100
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'OtchestvoZak'
+        Width = 100
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'AdresZak'
+        Width = 190
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Kod_sotrudnika'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Kod_mebeli'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Kolichestvo'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Data_podachi_zayavleniay'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Data_dostavki'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Summa'
+        Visible = True
+      end>
+  end
+end

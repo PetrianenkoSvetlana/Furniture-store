@@ -1,0 +1,53 @@
+unit udm;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DB, Data.Win.ADODB, Vcl.Menus;
+
+type
+  TDataModule1 = class(TDataModule)
+    ADOConnection1: TADOConnection;
+    DataSource2: TDataSource;
+    DataSource3: TDataSource;
+    MainMenu1: TMainMenu;
+    N1: TMenuItem;
+    N2: TMenuItem;
+    N3: TMenuItem;
+    N4: TMenuItem;
+    DataSource1: TDataSource;
+    DataSource4: TDataSource;
+    ADOqZakaz: TADODataSet;
+    ADOqKatalog_mebeli: TADODataSet;
+    ADOqSotrudniki: TADODataSet;
+    ADOOtdel: TADODataSet;
+    procedure N3Click(Sender: TObject);
+    procedure N4Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DataModule1: TDataModule1;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+uses ufMain, uOPR;
+
+{$R *.dfm}
+
+procedure TDataModule1.N3Click(Sender: TObject);
+begin
+ Form1.Close;
+end;
+
+procedure TDataModule1.N4Click(Sender: TObject);
+begin
+OPR.Show;
+end;
+
+end.

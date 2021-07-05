@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.422,C:\Users\1\Desktop\Курсовая y\Pech.pas=C:\Users\1\Desktop\Курсовая y\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.306,C:\Users\1\Desktop\Курсовая y\Unit7.dfm=C:\Users\1\Desktop\Курсовая y\DobKlient.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.820,C:\Users\1\Desktop\Курсовая y\Otchet.pas=C:\Users\1\Desktop\Курсовая y\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.587,=C:\Users\1\Desktop\Курсовая y\Unit6.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.240,C:\Users\1\Desktop\Курсовая y\Unit4.dfm=C:\Users\1\Desktop\Курсовая y\Chek.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.590,C:\Users\1\Desktop\Курсовая y\Unit5.dfm=C:\Users\1\Desktop\Курсовая y\NewMeb.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.682,C:\Users\1\Desktop\Курсовая y\VSotrud.dfm=C:\Users\1\Desktop\Курсовая y\Unit6.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.998,=C:\Users\1\Desktop\Курсовая\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.782,C:\Users\1\Desktop\Курсовая\Unit1.pas=C:\Users\1\Desktop\Курсовая\udm.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.586,C:\Users\1\Desktop\Курсовая\Zakaz.pas=C:\Users\1\Desktop\Курсовая\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.467,=C:\Users\1\Desktop\Курсовая\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.715,C:\Users\1\Desktop\Курсовая y\Otch.dfm=C:\Users\1\Desktop\Курсовая y\Unit5.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.820,C:\Users\1\Desktop\Курсовая y\Otchet.dfm=C:\Users\1\Desktop\Курсовая y\Unit5.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.390,C:\Users\1\Desktop\Курсовая y\Unit8.dfm=C:\Users\1\Desktop\Курсовая y\FR.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.435,=C:\Users\1\Desktop\Курсовая\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.116,C:\Users\1\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\1\Desktop\Курсовая\Magazin.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.143,C:\Users\1\Desktop\Курсовая\uOPR.pas=C:\Users\1\Desktop\Курсовая\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.398,C:\Users\1\Desktop\Курсовая\Unit2.dfm=C:\Users\1\Desktop\Курсовая\FM.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.682,C:\Users\1\Desktop\Курсовая y\VSotrud.pas=C:\Users\1\Desktop\Курсовая y\Unit6.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.422,C:\Users\1\Desktop\Курсовая y\Pech.dfm=C:\Users\1\Desktop\Курсовая y\Unit5.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.606,=C:\Users\1\Desktop\Курсовая y\Unit8.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.390,C:\Users\1\Desktop\Курсовая y\Unit8.pas=C:\Users\1\Desktop\Курсовая y\FR.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.329,=C:\Users\1\Desktop\Курсовая y\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.262,=C:\Users\1\Desktop\Курсовая y\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.590,C:\Users\1\Desktop\Курсовая y\Unit5.pas=C:\Users\1\Desktop\Курсовая y\NewMeb.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.240,C:\Users\1\Desktop\Курсовая y\Unit4.pas=C:\Users\1\Desktop\Курсовая y\Chek.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.969,=C:\Users\1\Desktop\Курсовая y\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.087,=C:\Users\1\Desktop\Курсовая y\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.087,C:\Users\1\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\1\Desktop\Курсовая\ufMain.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.782,C:\Users\1\Desktop\Курсовая\Unit1.dfm=C:\Users\1\Desktop\Курсовая\udm.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.087,C:\Users\1\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\1\Desktop\Курсовая\ufMain.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.091,=C:\Users\1\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.135,=C:\Users\1\Desktop\Курсовая y\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.905,=C:\Users\1\Desktop\Курсовая y\Unit7.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.306,C:\Users\1\Desktop\Курсовая y\Unit7.pas=C:\Users\1\Desktop\Курсовая y\DobKlient.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.398,C:\Users\1\Desktop\Курсовая\Unit2.pas=C:\Users\1\Desktop\Курсовая\FM.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.529,=C:\Users\1\Desktop\Курсовая\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.594,C:\Users\1\Desktop\Курсовая y\NewMeb.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.586,C:\Users\1\Desktop\Курсовая\Zakaz.dfm=C:\Users\1\Desktop\Курсовая\Unit3.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.143,C:\Users\1\Desktop\Курсовая\uOPR.dfm=C:\Users\1\Desktop\Курсовая\Unit4.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.715,C:\Users\1\Desktop\Курсовая y\Otch.pas=C:\Users\1\Desktop\Курсовая y\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.509,C:\Users\1\Desktop\Курсовая y\Otch.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.817,=C:\Users\1\Desktop\Курсовая y\Otch.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.448,C:\Users\1\Desktop\Курсовая y\Otch.pas=</Transaction>
+  </Transactions>
+</BorlandProject>
